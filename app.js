@@ -1,6 +1,13 @@
 //console.log("Hello from app.js")
- 
 
-    document.getElementById("checkdep").addEventListener("click", function() {
-        console.log(document.getElementsByClassName("input")[0].value)
+ let checkBalance = 0;
+
+    document.getElementById("checkdep").addEventListener("click", function(event) {
+
+        checkBalance += parseInt(document.querySelector('#newinput').value);
+       console.log(checkBalance)
+       document.getElementsByClassName('checkbalance')[0].innerHTML = checkBalance
     });
+    
+       
+      
