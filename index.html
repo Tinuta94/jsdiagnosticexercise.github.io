@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
   </head>
-  <body onmouseover="style.color='red'"
-  onmouseout="style.color='black'">
+  <body>
+   
       
     <div class="header">
       <div><img src="ga.png" /></div>
@@ -24,10 +24,10 @@
 
     <div id="savings" class="account">
       <h2>Savings</h2>
-      <div class="savibalance">$0</div>
-      <input class="input" type="text" placeholder="enter an amount" />
-      <input class="deposit" type="button" value="Deposit" />
-      <input class="withdraw" type="button" value="Withdraw" />
+      <div class="savebalance">$0</div>
+      <input class="input" type="number" placeholder="enter an amount" id="newin"/>
+      <input class="deposit" type="button" value="Deposit" id="savedep" />
+      <input class="withdraw" type="button" value="Withdraw" id="takeout"/>
     </div>
 
   
